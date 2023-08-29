@@ -2,6 +2,7 @@
 const User = require("../models/User")
 const jwt = require("jsonwebtoken")
 
+
 //Here, function for errors when logging in
 const handleErrors = (err) => {
     console.log(err.message, err.code);
@@ -93,5 +94,11 @@ module.exports.login_post = async (req, res) => {
     const errors = handleErrors(err);
     res.status(400).json({ errors });
   }
+
+}
+
+module.exports.logout_get = async (req, res) => {
+  res.cookie('jwt', '', { maxAge: 1 }); //Response to change the token (make it empty of empty value ' ' since we cannot delete it and only one ms just to logout)
+  res.redirect('/');
 
 }

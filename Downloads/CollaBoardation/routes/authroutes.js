@@ -14,5 +14,6 @@ routing.get('/login', authController.login_get)
 
 routing.post('/login', authController.login_post)
 
+routing.get('/logout', authController.logout_get)
 
 module.exports = routing;
