@@ -1,7 +1,6 @@
-# Hi there 👋
+# 🤺 Akram Merabti
 
-<!--
-**Akramerabti/Akramerabti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**`Knowledge Enthusiast (Developer/Creator/Fitness)`**
 
 Here are some ideas to get you started:
 
