@@ -1,6 +1,6 @@
-"use-client"       
+"use client";     
 
-import {cn} from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 
